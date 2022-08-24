@@ -1,0 +1,1 @@
+constexpr const int CLASS_MAX_VALUE = 6;

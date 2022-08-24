@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/g++.exe",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:/Users/blast/source/repos/Card/Card",
+                "C:/Users/blast/source/repos/Card/Card/Common/Enums/"
+            ],
+            "defines": [
+                "_DEBUG"
+            ],
+            "browse": {
+                "path": [
+                    "C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+                    "C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+                    "C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/include/*",
+                    "${workspaceRoot}",
+                    "C:/Users/blast/source/repos/Card/Card"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

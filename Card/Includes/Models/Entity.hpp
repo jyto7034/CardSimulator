@@ -1,0 +1,5 @@
+namespace CardGame{
+class Entity {
+    
+};
+}

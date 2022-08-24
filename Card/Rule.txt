@@ -1,0 +1,16 @@
+step 1 : Choose game mode
+
+step 2-A-1 : Choose three classes
+step 2-A-2 : Ban one of the three classes chosen by the opponent
+
+step 2-B-1 : Choose two classes
+
+step 3 : Get ready
+
+step 4 : Choose class mode 
+
+step 5 : Choose seven normal card
+
+step 6 : Choose three ultra card
+
+step 7 : 
