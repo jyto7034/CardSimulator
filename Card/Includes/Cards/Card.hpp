@@ -1,5 +1,5 @@
 namespace CardGame{
-class ITask{
+class Card{
 
 };
 };

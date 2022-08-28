@@ -1,2 +1,43 @@
-﻿  main.cpp
-  Card.vcxproj -> C:\Users\blast\source\repos\Card\x64\Debug\Card.exe
+﻿  Constants.hpp
+  Game.cpp
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Entity.hpp(2,14): error C2011: 'CardGame::Entity': 'class' 형식 재정의
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Entity.hpp(2): message : 'CardGame::Entity' 선언을 참조하십시오.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(7,30): error C2504: 'CardGame::Entity': 기본 클래스를 정의하지 않았습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(12,9): error C2143: 구문 오류: ';'이(가) '*' 앞에 없습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(12,9): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(12,15): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\blast\source\repos\Card\Card\Common\Constants.hpp(2,21): error C2374: 'CardGame::CLASS_MAX_VALUE': 재정의. 여러 번 초기화했습니다.
+C:\Users\blast\source\repos\Card\Card\Common\Constants.hpp(2): message : 'CardGame::CLASS_MAX_VALUE' 선언을 참조하십시오.
+C:\Users\blast\source\repos\Card\Card\Common\Constants.hpp(3,21): error C2374: 'CardGame::START_DECK_SIZE': 재정의. 여러 번 초기화했습니다.
+C:\Users\blast\source\repos\Card\Card\Common\Constants.hpp(3): message : 'CardGame::START_DECK_SIZE' 선언을 참조하십시오.
+C:\Users\blast\source\repos\Card\Card\Source\Game\Game.cpp(15,12): error C2039: 'game': 'CardGame::Player'의 멤버가 아닙니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(7): message : 'CardGame::Player' 선언을 참조하십시오.
+C:\Users\blast\source\repos\Card\Card\Source\Game\Game.cpp(30,42): error C2039: 'GetPlayerAllDeck': 'CardGame::Game'의 멤버가 아닙니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Game\Game.hpp(14): message : 'CardGame::Game' 선언을 참조하십시오.
+C:\Users\blast\source\repos\Card\Card\Source\Game\Game.cpp(30,81): error C2270: 'GetPlayerAllDeck': 비멤버 함수에 한정자를 사용할 수 없습니다.
+C:\Users\blast\source\repos\Card\Card\Source\Game\Game.cpp(31,42): error C2065: 'm_gameConfig': 선언되지 않은 식별자입니다.
+C:\Users\blast\source\repos\Card\Card\Source\Game\Game.cpp(32,42): error C2065: 'm_gameConfig': 선언되지 않은 식별자입니다.
+  Entity.cpp
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Entity.hpp(2,14): error C2011: 'CardGame::Entity': 'class' 형식 재정의
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Entity.hpp(2): message : 'CardGame::Entity' 선언을 참조하십시오.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(7,30): error C2504: 'CardGame::Entity': 기본 클래스를 정의하지 않았습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(12,9): error C2143: 구문 오류: ';'이(가) '*' 앞에 없습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(12,9): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(12,15): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\blast\source\repos\Card\Card\Common\Constants.hpp(2,21): error C2374: 'CardGame::CLASS_MAX_VALUE': 재정의. 여러 번 초기화했습니다.
+C:\Users\blast\source\repos\Card\Card\Common\Constants.hpp(2): message : 'CardGame::CLASS_MAX_VALUE' 선언을 참조하십시오.
+C:\Users\blast\source\repos\Card\Card\Common\Constants.hpp(3,21): error C2374: 'CardGame::START_DECK_SIZE': 재정의. 여러 번 초기화했습니다.
+C:\Users\blast\source\repos\Card\Card\Common\Constants.hpp(3): message : 'CardGame::START_DECK_SIZE' 선언을 참조하십시오.
+  Player.cpp
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(10,16): error C3646: 'playerType': 알 수 없는 재정의 지정자입니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(10,26): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(11,15): error C3646: 'state': 알 수 없는 재정의 지정자입니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(11,20): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(12,9): error C2143: 구문 오류: ';'이(가) '*' 앞에 없습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(12,9): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\blast\source\repos\Card\Card\Includes\Models\Player.hpp(12,15): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+  ITask.cpp
+C:\Users\blast\source\repos\Card\Card\Source\Tasks\ITask.cpp(4,16): error C2011: 'CardGame::ITask': 'class' 형식 재정의
+C:\Users\blast\source\repos\Card\Card\Includes\Tasks\ITask.hpp(2): message : 'CardGame::ITask' 선언을 참조하십시오.
+  main.cpp
+  코드를 생성하고 있습니다...

@@ -1,4 +1,4 @@
-namespace Card {
+namespace CardGame {
 enum class Step {
     INVALID,
     SELECT_GAME_MODE,
@@ -45,6 +45,19 @@ enum class ZoneType{
     PASSIVE,
     ADDICTIONAL,
     REMOVEDFROMGAME,
+};
+
+enum class PlayerType{
+    INVALID,
+    RANDOM,
+    PLAYER1,
+    PLAYER2
+};
+
+
+enum class Turn{
+    PLAYER1,
+    PLAYER2
 };
 
 };

@@ -3,7 +3,7 @@
 #include <map>
 #include <string>
 
-
+namespace CardGame{
 enum class CardClass : int{
 #define X(a) a,
 #include "CardClassID.def"
@@ -16,3 +16,5 @@ const std::string CARD_CLASS_STR_EN[] = {
 #include "CardClassNameEn.def"
 #undef X
 };
+
+}
