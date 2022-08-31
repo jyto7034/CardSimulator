@@ -10,6 +10,8 @@
 #include "Includes/Tasks/TaskQueue.hpp"
 #include "Common/Enums/CardClass.hpp"
 
+#include <algorithm>
+
 namespace CardGame {
 class Game {
    public:
@@ -116,7 +118,12 @@ class Game {
     //! \return 게임의 결과를 리턴 합니다. (player1 and player2).
     std::tuple<PlayState, PlayState> Process(Player* player, ITask&& task);
 
+    
+    //! 라운드마다 사용된 카드를 로그로 저장합니다.
+    std::vector<std::vector<std::pair<PlayerType, Card*> > > PlayHistory;
 
+    //! 플레이어의 덱을 받습니다.
+    //! \param PayerType 플레이어의 종류입니다.
     std::array<Card*, START_DECK_SIZE> GetPlayerDeck(PlayerType) const;
    
     TaskQueue taskQueue;

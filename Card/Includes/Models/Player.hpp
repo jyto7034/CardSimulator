@@ -11,5 +11,7 @@ class Player : public Entity {
     PlayerType playerType;
     PlayState state;
     Game* game;
+
+    
 };
 }  

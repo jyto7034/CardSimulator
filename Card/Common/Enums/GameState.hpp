@@ -60,4 +60,9 @@ enum class Turn{
     PLAYER2
 };
 
+enum class DrawResult{
+    SUCCESS,
+    EMPTY
+};
+
 };
